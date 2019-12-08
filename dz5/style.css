@@ -1,0 +1,104 @@
+body {
+    font-family: 'Anton', sans-serif;
+}
+
+.menu {
+    max-width: 100%;
+    margin: auto;
+
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(26, 164, 253);
+}
+
+.navigation-list__btn {
+    display: block;
+    height: 30px;
+    width: auto;
+    padding: 20px 15px 15px 15px;
+    background-color: rgb(26, 164, 253);
+    color: cornsilk;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.navigation-list__btn:hover {
+    background-color: rgb(241, 237, 234);
+    color: rgb(150, 167, 180);
+}
+
+.chosen-navigation-list-btn {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    left: 0px;
+    right: 0px;
+    top: 60px;
+    background-color: rgb(241, 237, 234);
+
+}
+
+.chosen-navigation-list-btn__item {
+    display: block;
+    position: relative;
+    background-color: rgb(241, 237, 234);
+    color: rgb(150, 167, 180);
+    cursor: pointer;
+    padding: 14px 25px 14px 25px;
+}
+
+.chosen-navigation-list-btn__item:hover {
+    background-color: rgb(201, 197, 204);
+}    
+.navigation-list__item:hover
+.chosen-navigation-list-btn {
+    display: flex;
+}
+
+.pagination-menu {
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    position: fixed;
+    bottom: 0; 
+    padding: 10px;
+    width: 100%;
+}
+
+.pagination-obj {
+    padding: 7px 10px;
+    border: solid 2px rgb(136, 21, 172);
+    border-radius: 6px;
+    margin: 0px 0px 0px 7px;
+    cursor: pointer;
+}
+
+.pagination-obj-not-num {
+    text-transform: uppercase;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 3px;
+    cursor: pointer;
+}
+
+
+.pagination-obj a,
+.pagination-obj-not-num a, span {
+    color: rgb(136, 21, 172);
+}
+
+.pagination-obj:hover,
+.pagination-obj-not-num:hover {
+    background-color: rgb(166, 51, 202);
+}
+
+.pagination-obj a:hover ,
+.pagination-obj-not-num a:hover {
+    background-color: rgb(166, 51, 202);
+    color: rgb(241, 237, 234);
+}

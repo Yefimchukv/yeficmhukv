@@ -1,0 +1,116 @@
+body {
+  /* background-color: red; */
+
+  /* background: url('/lesson4/catbread-03-600x400.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 100vh;
+  width: 100vw;
+
+  background: radial-gradient(white, aqua)
+}
+
+.auth-form {
+  width: 400px;  
+  /* height: 600px; */
+  background-color: rgba(122, 122, 122, 0.4);
+  border-radius: 18px;
+  position: absolute;
+  left: calc(50% - 200px);
+  top: 40px;
+}
+
+.auth-form__header {
+  height: 150px;  
+
+}
+
+.auth-form__sign-in {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-family: 'Lato', sans-serif;
+  color: #777;
+}
+
+.auth-form__sign-in::after {
+  content:
+}
+
+.auth-form__img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  left: calc(50% - 50px);
+  top: -25px;
+}
+
+.auth-form__main {
+  direction: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 45px;
+}
+
+.auth-form__interaction-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.auth-form__interaction-form input {
+  margin-bottom: 10px;
+  padding: 14px 20px 10px 25px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.auth-form__btn-submit {
+  margin-top: 5px;
+  background-color: aqua;
+  border-radius: 10px;
+  width: 80%;
+  height: 40px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.auth-form__btn-submit:hover {
+  background-color: #bdbdbd;
+}
+
+.auth-form__btn-submit:active {
+  transform: translateY(1px);
+}
+
+.auth-form__interaction-form div:first-child::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  left: 5px;
+  top: 16px;
+  background: url('../dz4/kisspng-computer-icons-padlock-web-typography-clip-art-schloss-5b1221d4693526.5435415715279149644309.jpg');
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+
+.auth-form__helper-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 20px;
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+  align-items: center;
+}
+
+.auth-form__remember-me span,
+.auth-form__password-restore {
+  color: White;
+}

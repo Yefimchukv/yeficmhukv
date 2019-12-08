@@ -1,0 +1,33 @@
+header {
+  position: absolute;
+  border: solid olivedrab;
+  margin: 10px;
+  padding: 120px;
+}
+
+li {
+  background-color: blue;
+}
+
+.second {
+  background-color: yellow;
+}
+
+.main-logo__img {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 10px;
+}
+
+.main-logo__text {
+  position: absolute;
+  left: 110px;
+  top: 50px;
+}
+
+.nav {
+  position: absolute;
+  right: 300px;
+  top: 10px;
+}

@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(161, 197, 161);
+  color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+p {
+  font-size: 16px;
+}
+
+input {
+  background-color: yellow;
+}
+
+form {
+  border: solid 5px;
+  margin: 100px;
+  padding: 100px;
+}

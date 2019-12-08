@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  border: solid 2px rgb(252, 225, 138);
+  background-color: #dfaaaa;
+}
+
+.main-logo__img {
+  height: 90px;
+  width: 150px;
+  border-radius: 100px;
+  border: solid 2px rgb(240, 212, 57);
+}
+
+.main-logo__text {
+  float: right;
+  margin: 40px 5px;
+}
+
+.navigation-list {
+  display: flex;  
+}
+
+.navigation-list__item {
+  margin: 10px;
+}

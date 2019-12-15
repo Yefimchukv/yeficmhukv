@@ -1,0 +1,52 @@
+.header span {
+  font-family: 'Inconsolata', monospace;
+  padding: 20px 60px 0px 60px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  margin: auto;
+  width: auto;
+  color: cornsilk;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  justify-content: space-around;
+}
+
+.header span:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  width: auto;
+  padding: 20px 15px 15px 15px;
+  color: cornsilk;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.nav-item:hover {
+  background-color: rgb(230, 230, 230);
+}
+/*# sourceMappingURL= header.css.map */

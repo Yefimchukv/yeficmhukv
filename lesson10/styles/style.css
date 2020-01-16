@@ -1,0 +1,99 @@
+.feedback-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: url(https://i.pinimg.com/originals/fb/e7/4b/fbe74ba88cc93c47e0e480e3746686c2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.feedback-form img:first-child::before {
+  content: '';
+  position: absolute;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+}
+
+.feedback-form h2 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: rgba(9, 9, 226, 0.87);
+  font-size: 34px;
+}
+
+.feedback {
+  margin-top: 50px;
+  width: 480px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.feedback::after {
+  content: '';
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 95px;
+  border: 20px solid transparent;
+  border-right: 20px solid #f7f7f0;
+}
+
+.feedback .text {
+  padding: 10px;
+  height: 140px;
+  background-color: #f7f7f0;
+}
+
+.feedback .text .customer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: dotted;
+  color: blue;
+  margin: 0 0 8px 0;
+}
+
+.feedback .text .customer-info span {
+  color: rgba(11, 11, 216, 0.849);
+  margin: 8px 0;
+}
+
+.feedback .text h3 {
+  color: blue;
+}
+
+.feedback img {
+  height: 100px;
+  width: 100px;
+  padding-right: 35px;
+  margin-top: 15px;
+}
+/*# sourceMappingURL=style.css.map */

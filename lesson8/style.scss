@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+ul, li, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+div {
+  background-color: red;
+  width: 100%;
+  padding: 50px 0px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  width: calc(50% - 20px);
+  background-color: gray;
+  margin: 10px 10px;
+  font-size: 100px;
+}
+
+@media only screen and (min-width: 1920px) {
+  div {
+    max-width: 1920px; 
+    margin: 0 auto;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  div {
+    background-color: green;
+  }
+
+  li {
+    width: calc(100% - 20px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  div {
+    background-color: yellow;
+  }
+
+  li {
+    font-size: 40px;
+    color: red;
+  }
+}

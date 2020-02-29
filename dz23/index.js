@@ -22,40 +22,40 @@
 //     f3000("test");
 
 
-// function debounce(f, ms) {
+function debounce(f, ms) {
 
-//     let isCooldown = false;
+    let isCooldown = false;
 
-//     return function() {
-//         if (isCooldown) {
-//             return;
-//         }
+    return function() {
+        if (isCooldown) {
+            return;
+        }
 
-//         f.apply(this, arguments);
+        f.apply(this, arguments);
 
-//         isCooldown = true;
+        isCooldown = true;
 
-//         setTimeout(() => isCooldown = false, ms);
-//     }
-// }
+        setTimeout(() => isCooldown = false, ms);
+    }
+}
 
 
 
-// f = debounce(console.log, 1000);
+f = debounce(console.log, 1000);
 
-// f(1);
-// f(2);
+f(1);
+f(2);
 
-// setTimeout( () => f(3), 100); 
-// setTimeout( () => f(4), 1100); 
-// setTimeout( () => f(5), 1500); 
-// setTimeout( () => f(6), 2101); 
-// setTimeout( () => f(7), 2200);
-// setTimeout( () => f(9), 4000); 
-// setTimeout( () => f(8), 3500);
-// setTimeout( () => f(10), 1100);
-// setTimeout( () => f(11), 1500);
-// setTimeout( () => f(12), 100); 
-// setTimeout( () => f(13), 1100);
-// setTimeout( () => f(14), 1500);
+setTimeout( () => f(3), 100); 
+setTimeout( () => f(4), 1100); 
+setTimeout( () => f(5), 1500); 
+setTimeout( () => f(6), 2101); 
+setTimeout( () => f(7), 2200);
+setTimeout( () => f(9), 4000); 
+setTimeout( () => f(8), 3500);
+setTimeout( () => f(10), 1100);
+setTimeout( () => f(11), 1500);
+setTimeout( () => f(12), 100); 
+setTimeout( () => f(13), 1100);
+setTimeout( () => f(14), 1500);
 
